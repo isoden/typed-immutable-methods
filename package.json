@@ -1,7 +1,7 @@
 {
   "name": "immutablite",
   "version": "1.0.1",
-  "description": "Typed immutable getter/setter methods",
+  "description": "Immutable getter/setter methods with Types",
   "main": "lib/index.js",
   "scripts": {
     "start": "tsc --watch",

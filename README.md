@@ -1,7 +1,7 @@
 immutablite
 ===
 
-Typed immutable getter/setter methods
+Immutable getter/setter methods with Types
 
 [![npm](https://img.shields.io/npm/v/immutablite.svg?style=flat-square)](https://www.npmjs.com/package/immutablite)
 
