@@ -5,6 +5,14 @@ Typed immutable getter/setter methods
 
 [![npm](https://img.shields.io/npm/v/immutablite.svg?style=flat-square)](https://www.npmjs.com/package/immutablite)
 
+## Installation
+
+```console
+$ npm install immutablite --save 
+```
+
+## Usage
+
 ```ts
 import { get, set } from 'immutablite'
 
