@@ -1,7 +1,7 @@
 {
   "name": "immutablite",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Typed immutable getter/setter methods",
   "main": "lib/index.js",
   "scripts": {
     "start": "tsc --watch",
@@ -13,12 +13,12 @@
   "author": "isoden <isoda@maboroshi.biz> (http://isoden.me)",
   "license": "MIT",
   "dependencies": {
-    "@types/lodash.clonedeep": "^4.5.2",
-    "@types/lodash.isnil": "^4.0.2",
     "lodash.clonedeep": "^4.5.0",
     "lodash.isnil": "^4.0.0"
   },
   "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.2",
+    "@types/lodash.isnil": "^4.0.2",
     "@types/mocha": "^2.2.41",
     "@types/power-assert": "^1.4.29",
     "espower-typescript": "^8.0.2",
