@@ -1,6 +1,6 @@
 {
-  "name": "immutablite",
-  "version": "1.0.2",
+  "name": "typed-immutable-methods",
+  "version": "1.0.3",
   "description": "Immutable getter/setter methods with Types",
   "main": "lib/index.js",
   "scripts": {
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isoden/immutablite.git"
+    "url": "git+https://github.com/isoden/typed-immutable-methods.git"
   },
   "bugs": {
-    "url": "https://github.com/isoden/immutablite/issues"
+    "url": "https://github.com/isoden/typed-immutable-methods/issues"
   },
-  "homepage": "https://github.com/isoden/immutablite#readme"
+  "homepage": "https://github.com/isoden/typed-immutable-methods#readme"
 }

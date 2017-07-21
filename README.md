@@ -1,20 +1,20 @@
-immutablite
+typed-immutable-methods
 ===
 
 Immutable getter/setter methods with Types
 
-[![npm](https://img.shields.io/npm/v/immutablite.svg?style=flat-square)](https://www.npmjs.com/package/immutablite)
+[![npm](https://img.shields.io/npm/v/typed-immutable-methods.svg?style=flat-square)](https://www.npmjs.com/package/typed-immutable-methods)
 
 ## Installation
 
 ```console
-$ npm install immutablite --save 
+$ npm install typed-immutable-methods --save 
 ```
 
 ## Usage
 
 ```ts
-import { get } from 'immutablite'
+import { get } from 'typed-immutable-methods'
 
 const entity = {
   a: {
@@ -35,7 +35,7 @@ get(entity, ['d'])                     // Compile error
 ```
 
 ```ts
-import { set } from 'immutablite'
+import { set } from 'typed-immutable-methods'
 
 const updated = set(entity, ['a', 'b', 'd'], 24)
 

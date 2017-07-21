@@ -1,7 +1,7 @@
 import * as assert from 'power-assert'
 import { set } from '../src/set'
 
-describe('immutablite#set', () => {
+describe('typed-immutable-methods#set', () => {
   it('should set new value', () => {
     const a = {
       b: 'original value'
