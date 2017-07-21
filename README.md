@@ -14,7 +14,7 @@ $ npm install immutablite --save
 ## Usage
 
 ```ts
-import { get, set } from 'immutablite'
+import { get } from 'immutablite'
 
 const entity = {
   a: {
@@ -31,6 +31,12 @@ const b = get(entity, ['a', 'b'])      // b is { c: string; d: number } by type 
 
 expect(b).not.toEqual(entity.a.b)      // different references
 
+get(entity, ['d'])                     // Compile error
+```
+
+```ts
+import { set } from 'immutablite'
+
 const updated = set(entity, ['a', 'b', 'd'], 24)
 
 expect(updated).toEqual({
@@ -41,5 +47,7 @@ expect(updated).toEqual({
     }
   }
 })
-expect(updated).not.toEqual(entity)    // different references
+expect(updated).not.toEqual(entity)          // different references
+
+set(entity, ['a', 'b', 'd'], 'not a number') // Compile error
 ```
